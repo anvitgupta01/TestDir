@@ -8,8 +8,12 @@ class myclass:
         print("gupta")
     
     def func1(self):
-        func()
-        dirty()
+        self.func()
+        dr()
+
+class child_class(myclass):
+    def func1(self):
+        super().func1()
 
 def funcr():
     dr()
@@ -18,4 +22,6 @@ def funcr():
         def func4():
             mnh()
 
+y = child_class()
+y.func1()
 x = f2.myfunc()
