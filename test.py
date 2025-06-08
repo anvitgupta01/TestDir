@@ -10,6 +10,7 @@ class anvit:
             self().func1()
 
 anvit().person().tester()
+self().func1()
 
 import file1 as f1
 
