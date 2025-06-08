@@ -2,6 +2,8 @@ from folder1.file3 import dirty as dr
 from folder1.folder2.file5 import *
 import file2 as f2
 
+t = lambda h : h + 10
+
 class mymatch():
     def __init__(self):
         pass
