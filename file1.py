@@ -3,6 +3,8 @@ from folder1.folder2.file5 import *
 import file2 as f2
 
 class myclass:
+    def __init__(self):
+        pass
     def func(self):
         print("yes")
         print("gupta")
