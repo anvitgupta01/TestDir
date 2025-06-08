@@ -1,4 +1,4 @@
-from ..folder1.folder2.file5 import myclass3
+from folder1.folder2.file5 import myclass3
 
 def dirty():
     a = 900
