@@ -5,8 +5,7 @@ import file2 as f2
 t = lambda h : h + 10
 
 class mymatch():
-    def __init__(self):
-        pass
+    pass
 
 class child_class(mymatch, f2.myclass):
     def func1(self):
