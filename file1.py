@@ -8,7 +8,7 @@ t = lambda h : h + 10
 class mymatch():
     pass
 
-class child_class(mymatch, myclass):
+class child_class(mymatch, myclass3, myclass):
     def func1(self):
         super().func1()
 
