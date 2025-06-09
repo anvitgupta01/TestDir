@@ -1,13 +1,14 @@
 from folder1.file3 import dirty as dr
 from folder1.folder2.file5 import *
-import file2 as f2
+# import file2 as f2
+from .file2 import myclass
 
 t = lambda h : h + 10
 
 class mymatch():
     pass
 
-class child_class(mymatch, f2.myclass):
+class child_class(mymatch, myclass):
     def func1(self):
         super().func1()
 
@@ -20,4 +21,4 @@ def funcr():
 
 y = child_class()
 y.func1()
-x = f2.myfunc()
+# x = f2.myfunc()
