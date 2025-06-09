@@ -5,3 +5,9 @@ def dirty():
 
 x = myclass3().fun_anything()
 y = myclass3().myclass4().func()
+
+def func1():
+    x = myclass3().fun_anything()
+
+def func1():
+    x = myclass3().fun_anything()
