@@ -1,4 +1,5 @@
 from folder1.folder2.file5 import myclass3
+from file1 import funcr
 
 def dirty():
     a = 900
@@ -11,3 +12,4 @@ def func1():
 
 def func1():
     x = myclass3().fun_anything()
+    funcr()
