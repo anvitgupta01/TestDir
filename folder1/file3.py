@@ -1,4 +1,4 @@
-from folder2.file5 import myclass3
+from .folder2.file5 import myclass3
 from file1 import funcr
 
 def dirty():
