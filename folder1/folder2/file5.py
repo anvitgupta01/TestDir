@@ -1,7 +1,7 @@
-from . import file6
+from folder1.folder2 import file6
 
 def mnh():
-    pass
+    file6.fun()
 
 class myclass3:
     class myclass4:
