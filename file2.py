@@ -1,6 +1,6 @@
 # from file1 import *
 
-from folder1.file3 import dirty as dr
+from .folder1.file3 import dirty as dr
 
 class myclass:
     def __init__(self):
